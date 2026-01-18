@@ -1,0 +1,9 @@
+[package]
+name = "focus"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI tool to block distracting websites while working"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+dirs = "5"
